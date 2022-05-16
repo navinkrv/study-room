@@ -36,7 +36,7 @@ function navbarToggler(){
     else if(document.querySelector(".nav").classList=="nav nav-show"){
         toggler.addEventListener("click",function(){
             document.querySelector("nav").classList.remove("navbar-toggled");
-            document.querySelector("nav").classList.add("navbar");
+//             document.querySelector("nav").classList.add("navbar");
             navbar.classList.remove("nav-show");
             navbar.classList.add("nav-hidden");
             navbarToggler();
