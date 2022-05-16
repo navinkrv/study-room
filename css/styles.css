@@ -1,0 +1,163 @@
+*{
+    margin: 0;padding: 0;
+    overflow-x: hidden;
+}
+nav{
+    background-color:#15133C;
+    padding: 10px;
+    display:flex;
+    justify-content:space-between;
+ 
+    
+}
+.navbar{
+    display:flex;
+    width:100vh;
+    justify-content:space-between;
+}
+.toggler{
+    display: none;
+    
+}
+.nav-brand h2{
+    color:#F1EEE9;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+nav ul li{
+    color: #F1EEE9;
+    padding: 10px;
+}
+.navbar-toggled{
+ justify-content: center;
+ align-items: center;
+ flex-direction:column;
+}
+.nav-hidden{
+    display:none;
+}
+.nav-show{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+}
+.nav-default{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+h1,.h2{
+    color:#F1EEE9;
+}
+
+
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    background-color: #EC994B;
+}
+.left,.right{
+    width: 45%;
+
+}
+
+.left img{
+    width:80%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.services{
+    background-color: #F1EEE9;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding: 40px 10px;
+}
+.service-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+   
+    
+}
+.service-item{
+    padding: 15px;
+    margin:10px;
+    box-shadow: rgb(151, 146, 146) 2px 2px 10px 2px;
+    border-radius: 10px;
+    text-align:center;
+    width:350px;
+}
+.service-item h2,p{
+    margin: 10px 0;
+}
+.services h2{
+    color: #15133C;
+}
+.service-item h2{
+    color:#EC994B;
+}
+.testimonial{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#EC994B;
+    height:30vh;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius:10px;
+    background-color: #EC994B;
+    border: none;
+    color: #F1EEE9;
+    font-size:1em;
+
+}
+.btn:hover{
+    background-color: #15133C;
+}
+.footer{
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+}
+.footer p{
+    color: wheat;
+}
+
+
+@media screen and (max-width:700px){
+  
+    .toggler{
+        display:flex;
+        /* align-items: right;
+        justify-content: right; */
+    }
+    .toggler button{
+        background-color: #EC994B;
+        color:#F1EEE9;
+        padding:4px;
+    }
+    .service-body{
+        flex-direction:column;
+    }
+    
+}
