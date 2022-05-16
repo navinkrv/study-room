@@ -1,19 +1,20 @@
 *{
     margin: 0;padding: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 nav{
     background-color:#15133C;
     padding: 10px;
     display:flex;
     justify-content:space-between;
- 
+ width: 100vw;
     
 }
 .navbar{
     display:flex;
     width:100vh;
     justify-content:space-between;
+    width: 90vw;
 }
 .toggler{
     display: none;
@@ -27,6 +28,7 @@ nav ul{
     display: flex;
     justify-content: right;
     flex-direction: row;
+    
 }
 nav ul li{
     color: #F1EEE9;
@@ -39,6 +41,7 @@ nav ul li{
 }
 .nav-hidden{
     display:none;
+    
 }
 .nav-show{
     display:flex;
