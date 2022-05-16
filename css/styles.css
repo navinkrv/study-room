@@ -1,20 +1,21 @@
 *{
     margin: 0;padding: 0;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 nav{
     background-color:#15133C;
     padding: 10px;
     display:flex;
     justify-content:space-between;
- width: 100vw;
+ /* width: 100vw; */
     
 }
 .navbar{
+    width:100vw;
     display:flex;
-    width:100vh;
+    margin: 0;padding: 0;
     justify-content:space-between;
-    width: 90vw;
+
 }
 .toggler{
     display: none;
@@ -35,13 +36,14 @@ nav ul li{
     padding: 10px;
 }
 .navbar-toggled{
- justify-content: center;
- align-items: center;
+    width: auto;
+ /* justify-content: center; */
+ /* align-items: center; */
  flex-direction:column;
 }
 .nav-hidden{
     display:none;
-    
+
 }
 .nav-show{
     display:flex;
@@ -148,9 +150,10 @@ h1,.h2{
 
 
 @media screen and (max-width:700px){
-  
+
     .toggler{
-        display:flex;
+        display:block;
+        margin-right:15px;
         /* align-items: right;
         justify-content: right; */
     }
